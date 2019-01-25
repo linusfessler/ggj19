@@ -10,10 +10,6 @@ public class Movement : MonoBehaviour {
 	[SerializeField, Range(0, 25)] private int speed = 5;
 	[SerializeField, Range(0, 90)] private int maxSlope = 45;
 
-	private void Awake() {
-
-	}
-
 	private void FixedUpdate () {
 		float x = Input.GetAxis("MoveX");
 		float z = Input.GetAxis("MoveZ");
