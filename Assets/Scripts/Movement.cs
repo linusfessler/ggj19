@@ -17,7 +17,7 @@ public class Movement : MonoBehaviour {
 		//z *= (z < 0) ? 0.25f : 1;
 		Vector3 direction = (x * rigidbody.transform.right + z * rigidbody.transform.forward).normalized;
 		if (SweepTest(direction)) {
-			rigidbody.velocity = speed * direction;
+			Move(direction);
 		}
 	}
 
@@ -32,5 +32,11 @@ public class Movement : MonoBehaviour {
 			}
 		}
 		return true;
+	}
+
+	private void Move(Vector3 direction) {
+		Vector3 velocityY = Vector3.Project(rigidbody.velocity, rigidbody.transform.up);
+		Vector3 velocityXZ = speed * direction;
+		rigidbody.velocity = velocityXZ + velocityY;
 	}
 }

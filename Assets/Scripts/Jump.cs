@@ -40,8 +40,7 @@ public class Jump : MonoBehaviour {
 	private void _Jump() {
 		TimeInAir = 0;
 		if (jumpAction == null) {
-			//rigidbody.velocity += speed * rigidbody.transform.up;
-			rigidbody.AddForce(speed * rigidbody.transform.up, ForceMode.Impulse);
+			rigidbody.velocity += speed * rigidbody.transform.up;
 			// play jump sound here
 		} else {
 			jumpAction();
