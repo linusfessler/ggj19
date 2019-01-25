@@ -7,7 +7,7 @@ public class FirstPersonCamera : MonoBehaviour {
 	[SerializeField] private new Transform camera;
     [SerializeField] private Vector2 angleRange = new Vector2(85, 275);
 
-	void Update() {
+	private void Update() {
 		float mouseX = Input.GetAxis("Mouse X") * Time.deltaTime;
 		float mouseY = Input.GetAxis("Mouse Y") * Time.deltaTime;
 		player.Rotate(0, mouseX, 0);
