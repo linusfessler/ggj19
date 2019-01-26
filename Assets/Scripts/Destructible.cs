@@ -16,6 +16,7 @@ public class Destructible : MonoBehaviour {
 
             // GameObject audio = new GameObject();
 
+            Score.Instance.Value++;
 
             Destroy(gameObject);
         }
