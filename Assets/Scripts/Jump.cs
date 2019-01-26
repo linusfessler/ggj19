@@ -40,7 +40,8 @@ public class Jump : MonoBehaviour {
 	private void _Jump() {
 		TimeInAir = 0;
 		if (jumpAction == null) {
-			rigidbody.velocity += speed * rigidbody.transform.up;
+			rigidbody.velocity += speed * (0.8f * rigidbody.transform.up + 0.2f * rigidbody.transform.forward);
+			//rigidbody.velocity += speed * rigidbody.transform.up;
 			// play jump sound here
 		} else {
 			jumpAction();

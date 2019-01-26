@@ -6,37 +6,14 @@ using System.Collections.Generic;
 public class Movement : MonoBehaviour {
 
 	[SerializeField] private new Rigidbody rigidbody;
-	[SerializeField] private GroundDetection groundDetection;
 	[SerializeField, Range(0, 25)] private int speed = 5;
-	[SerializeField, Range(0, 90)] private int maxSlope = 45;
 
 	private void FixedUpdate () {
 		float x = Input.GetAxis("MoveX");
 		float z = Input.GetAxis("MoveZ");
-		//x *= 0.5f;
-		//z *= (z < 0) ? 0.25f : 1;
-		Vector3 direction = (x * rigidbody.transform.right + z * rigidbody.transform.forward).normalized;
-		if (SweepTest(direction)) {
-			Move(direction);
-		}
-	}
-
-	// prevents moving on a slope
-	private bool SweepTest(Vector3 direction) {
-		if (!groundDetection.IsGrounded) {
-			float distance = speed * Time.fixedDeltaTime;
-			RaycastHit raycastHit;
-			rigidbody.SweepTest(direction, out raycastHit, distance);
-			if (raycastHit.collider && Vector3.Angle(raycastHit.normal, rigidbody.transform.up) > maxSlope) {
-				return false;
-			}
-		}
-		return true;
-	}
-
-	private void Move(Vector3 direction) {
-		Vector3 velocityY = Vector3.Project(rigidbody.velocity, rigidbody.transform.up);
-		Vector3 velocityXZ = speed * direction;
-		rigidbody.velocity = velocityXZ + velocityY;
+		Vector2 direction2 = new Vector2(x, z).normalized;
+		//direction2 = new Vector2(direction2.x, (direction2.y < 0 ? 0.5f : 1) * direction2.y);
+		Vector3 direction3 = direction2.x * rigidbody.transform.right + direction2.y * rigidbody.transform.forward;
+		rigidbody.MovePosition(rigidbody.position + speed * Time.fixedDeltaTime * direction3);
 	}
 }

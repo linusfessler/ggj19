@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 6744849128996681176}
   m_Layer: 0
   m_Name: Collider
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -368,7 +368,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 6766738329064832908}
   groundDetection: {fileID: 7113187073761692084}
-  speed: 10
+  speed: 15
   timeToEnsureGroundExit: 0.25
   timeToEnsureGroundEnter: 0.05
 --- !u!114 &1749157026156804795
@@ -384,6 +384,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigidbody: {fileID: 6766738329064832908}
-  groundDetection: {fileID: 7113187073761692084}
   speed: 5
-  maxSlope: 45
+  maxSlope: 60
