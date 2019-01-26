@@ -1,0 +1,192 @@
+fileFormatVersion: 2
+guid: 6c35e495cd9bcea4ca11bb1e09c7ba3d
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Cinema_4D_Editor
+    100002: Decke_003
+    100004: Decke_003_1
+    100006: Decke_003_2
+    100008: Decke_003_3
+    100010: Decke_003_4
+    100012: Decke_003_5
+    100014: Decke_003_6
+    100016: Decke_003_7
+    100018: Decke_004
+    100020: //RootNode
+    100022: Unterzug_001
+    100024: Unterzug_001_1
+    100026: Unterzug_001_2
+    100028: Unterzug_001_3
+    100030: Unterzug_001_4
+    100032: Unterzug_001_5
+    100034: Unterzug_001_6
+    100036: Unterzug_001_7
+    100038: Unterzug_001_8
+    100040: Unterzug_001_9
+    400000: Cinema_4D_Editor
+    400002: Decke_003
+    400004: Decke_003_1
+    400006: Decke_003_2
+    400008: Decke_003_3
+    400010: Decke_003_4
+    400012: Decke_003_5
+    400014: Decke_003_6
+    400016: Decke_003_7
+    400018: Decke_004
+    400020: //RootNode
+    400022: Unterzug_001
+    400024: Unterzug_001_1
+    400026: Unterzug_001_2
+    400028: Unterzug_001_3
+    400030: Unterzug_001_4
+    400032: Unterzug_001_5
+    400034: Unterzug_001_6
+    400036: Unterzug_001_7
+    400038: Unterzug_001_8
+    400040: Unterzug_001_9
+    2000000: Cinema_4D_Editor
+    2100000: "m\xF6bel"
+    2300000: Decke_003
+    2300002: Decke_003_1
+    2300004: Decke_003_2
+    2300006: Decke_003_3
+    2300008: Decke_003_4
+    2300010: Decke_003_5
+    2300012: Decke_003_6
+    2300014: Decke_003_7
+    2300016: Decke_004
+    2300018: Unterzug_001
+    2300020: Unterzug_001_1
+    2300022: Unterzug_001_2
+    2300024: Unterzug_001_3
+    2300026: Unterzug_001_4
+    2300028: Unterzug_001_5
+    2300030: Unterzug_001_6
+    2300032: Unterzug_001_7
+    2300034: Unterzug_001_8
+    2300036: Unterzug_001_9
+    3300000: Decke_003
+    3300002: Decke_003_1
+    3300004: Decke_003_2
+    3300006: Decke_003_3
+    3300008: Decke_003_4
+    3300010: Decke_003_5
+    3300012: Decke_003_6
+    3300014: Decke_003_7
+    3300016: Decke_004
+    3300018: Unterzug_001
+    3300020: Unterzug_001_1
+    3300022: Unterzug_001_2
+    3300024: Unterzug_001_3
+    3300026: Unterzug_001_4
+    3300028: Unterzug_001_5
+    3300030: Unterzug_001_6
+    3300032: Unterzug_001_7
+    3300034: Unterzug_001_8
+    3300036: Unterzug_001_9
+    4300000: Decke_003_7
+    4300002: Decke_003_6
+    4300004: Decke_003_5
+    4300006: Decke_003_4
+    4300008: Decke_003_3
+    4300010: Decke_003_2
+    4300012: Decke_003_1
+    4300014: Decke_003
+    4300016: Decke_004
+    4300018: Unterzug_001_9
+    4300020: Unterzug_001_8
+    4300022: Unterzug_001_7
+    4300024: Unterzug_001_6
+    4300026: Unterzug_001_5
+    4300028: Unterzug_001_4
+    4300030: Unterzug_001_3
+    4300032: Unterzug_001_2
+    4300034: Unterzug_001_1
+    4300036: Unterzug_001
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
