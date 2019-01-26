@@ -30,6 +30,12 @@ public class GroundDetection : MonoBehaviour {
 		}
 	}
 
+	private void OnTriggerStay(Collider collider) {
+		if (!collider.isTrigger) {
+			IsGrounded = true;
+		}
+	}
+
 	private void OnTriggerExit(Collider collider) {
 		if (!collider.isTrigger) {
 			IsGrounded = false;
